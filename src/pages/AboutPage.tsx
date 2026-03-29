@@ -372,27 +372,32 @@ src="https://i.postimg.cc/5NQgjM0L/Whats-App-Image-2026-03-18-at-11-45-32-AM-(1)
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
             {[
               {
                 number: "01",
-                title: "Excellence",
-                description: "We pursue perfection in every dish, every presentation, and every interaction."
+                title: "Customer Centric",
+                description: "Your needs come first in how we plan, cook, and serve."
               },
               {
                 number: "02",
-                title: "Integrity",
-                description: "Honesty and transparency guide all our relationships with clients and partners."
+                title: "Humility",
+                description: "We listen, stay open to feedback, and treat everyone with respect."
               },
               {
                 number: "03",
-                title: "Creativity",
-                description: "We innovate constantly, bringing fresh ideas and unique flavors to every event."
+                title: "Teamwork",
+                description: "We pull together so every event is smooth from kitchen to table."
               },
               {
                 number: "04",
-                title: "Care",
-                description: "Genuine attention to detail and heartfelt service define our approach."
+                title: "Honesty",
+                description: "We are clear and truthful in what we promise and what we deliver."
+              },
+              {
+                number: "05",
+                title: "Accountability",
+                description: "We take ownership of our work and see it through to the end."
               }
             ].map((value, index) => (
               <div key={index} className="text-center">
